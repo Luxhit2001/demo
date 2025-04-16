@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PowerVac Vacuum Cleaner</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    h2 {
+      color: #2c3e50;
+    }
+    ul {
+      line-height: 1.6;
+    }
+    form {
+      margin-top: 30px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    button {
+      background-color: #27ae60;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #2c3e50;
+      color: white;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>PowerVac 3000</h1>
+  <p>The Ultimate Cleaning Experience</p>
+</header>
+
+<div class="container">
+  <img src="https://via.placeholder.com/800x400?text=PowerVac+3000" alt="Vacuum Cleaner">
+  
+  <h2>Why Choose PowerVac?</h2>
+  <p>The PowerVac 3000 is designed to deliver deep cleaning performance with powerful suction, HEPA filtration, and whisper-quiet operation.</p>
+  
+  <h2>Features</h2>
+  <ul>
+    <li>✔️ Ultra-powerful suction motor</li>
+    <li>✔️ HEPA filter for allergens and dust</li>
+    <li>✔️ Lightweight and easy to maneuver</li>
+    <li>✔️ Cordless with long battery life</li>
+    <li>✔️ Sleek, modern design</li>
+  </ul>
+
+  <h2>Contact Us</h2>
+  <form action="#">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea rows="4" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</div>
+
+<footer>
+  &copy; 2025 PowerVac Inc. All rights reserved.
+</footer>
+
+</body>
+</html>
